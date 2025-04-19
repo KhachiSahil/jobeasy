@@ -11,12 +11,15 @@
   "dependencies": {
     "@types/pdf-parse": "^1.1.4",
     "compromise": "^14.14.4",
+    "date-fns": "^4.1.0",
     "mammoth": "^1.9.0",
     "next": "15.1.6",
+    "node-nlp": "^5.0.0-alpha.5",
     "pdf-lib": "^1.17.1",
     "pdf-parse": "^1.1.1",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "react-icons": "^5.4.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
