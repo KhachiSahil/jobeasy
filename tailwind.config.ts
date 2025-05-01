@@ -6,14 +6,14 @@ export default {
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+  // tailwind.config.js
   theme: {
     extend: {
-      colors: {
-        background: "#f8f8f8",
-        foreground: "var(--foreground)",
-        MainText: "#0e0d0d"
+      dropShadow: {
+        glow: '0 0 10px rgba(255, 255, 255, 0.4)',
       },
     },
-  },
+  }
+  ,
   plugins: [],
 } satisfies Config;
