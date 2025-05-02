@@ -2,7 +2,7 @@
 import { writeFile } from "fs/promises";
 import { join } from "path";
 import { extractText } from "./extractText";
-
+ 
 export default async function handleResume(resume: File): Promise<Record<string, string>> {
     try {
         // Convert File to Buffer

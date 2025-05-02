@@ -1,17 +1,27 @@
 "use client";
-import React, { useState, useRef } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import { motion } from "framer-motion";
 import { Upload } from "lucide-react";
+import Link from "next/link";
+import handleResume from "@/actions/handleResume";
+import { useSession } from 'next-auth/react';
+import { useRouter } from 'next/navigation';
 
 const UploadResumeCard: React.FC = () => {
-  const [fileName, setFileName] = useState<string | null>(null);
+  const [file, setFile] = useState<File | null>(null);
   const [jobTitle, setJobTitle] = useState("");
   const [location, setLocation] = useState("");
   const fileInputRef = useRef<HTMLInputElement | null>(null);
-
+  const { data: session, status } = useSession();
+  const router = useRouter();
+  useEffect(() => {
+    if (status === "unauthenticated") {
+      router.push("/signup");
+    }
+  }, [status, router]);
   const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     if (e.target.files?.[0]) {
-      setFileName(e.target.files[0].name);
+      setFile(e.target.files[0]);
     }
   };
 
@@ -19,7 +29,7 @@ const UploadResumeCard: React.FC = () => {
     e.preventDefault();
     const file = e.dataTransfer.files?.[0];
     if (file) {
-      setFileName(file.name);
+      setFile(file);
     }
   };
 
@@ -28,14 +38,9 @@ const UploadResumeCard: React.FC = () => {
   };
 
   const handleSubmit = () => {
-    alert(
-      `File: ${fileName ?? "No file"}\nJob Title: ${jobTitle}\nLocation: ${location}`
-    );
+    if(file != null)handleResume(file)
   };
 
-  const handleBack = () => {
-    alert("Back button clicked! Implement navigation logic here.");
-  };
 
   return (
     <div className="min-h-screen bg-black text-white flex items-center justify-center px-4 relative overflow-hidden">
@@ -52,12 +57,12 @@ const UploadResumeCard: React.FC = () => {
         className="bg-gradient-to-br from-[#1a1a1d] to-[#111112] rounded-3xl border border-white/10 p-8 md:p-10 shadow-[0_0_60px_rgba(0,255,255,0.1)] max-w-md w-full backdrop-blur-xl relative overflow-hidden"
       >
         {/* Back Button */}
-        <button
-          onClick={handleBack}
+        <Link
+          href="/"
           className="absolute top-4 left-4 text-lg font-bold text-white hover:underline"
         >
           ←
-        </button>
+        </Link>
 
         <h2 className="text-2xl md:text-3xl font-extrabold bg-gradient-to-r from-pink-500 via-purple-500 to-cyan-400 text-transparent bg-clip-text">
           Upload <span className="text-white">Your Resume</span>
@@ -73,10 +78,10 @@ const UploadResumeCard: React.FC = () => {
         >
           <Upload className="w-10 h-10 text-purple-400 mb-4" />
           <p className="text-purple-400 font-medium">
-            {fileName ? `Uploaded: ${fileName}` : "Drag and drop your resume here"}
+            {file?.name ? `Uploaded: ${file.name}` : "Drag and drop your resume here"}
           </p>
           <p className="text-sm text-gray-400 mt-1">
-            Supports PDF, DOCX, TXT (Max 5MB)
+            Supports PDF, DOCX(Max 5MB)
           </p>
           <input
             type="file"

@@ -6,7 +6,7 @@ import Link from 'next/link';
 
 export default function Banner1() {
   return (
-    <section className="relative overflow-hidden bg-black text-white min-h-screen flex flex-col justify-center">
+    <section className="relative overflow-hidden bg-black text-white min-h-screen flex flex-col justify-center banner">
       {/* Blurred gradient background blobs */}
       <div className="absolute top-[-100px] left-[-100px] w-[300px] h-[300px] bg-purple-500 opacity-30 rounded-full blur-3xl animate-pulse" />
       <div className="absolute bottom-[-100px] right-[-100px] w-[300px] h-[300px] bg-cyan-400 opacity-30 rounded-full blur-3xl animate-pulse" />
@@ -31,12 +31,12 @@ export default function Banner1() {
             Upload your resume and let our AI match you with the best job opportunities tailored to your skills and experience.
           </p>
           <div className="flex flex-col sm:flex-row sm:justify-center md:justify-start space-y-4 sm:space-y-0 sm:space-x-4">
-            <Link href="/upload">
+            <Link href="/resume">
               <button className="bg-purple-600 font-bold text-white px-6 py-3 rounded-full hover:bg-purple-700 transition w-full sm:w-auto">
                 Upload Resume →
               </button>
             </Link>
-            <Link href="/learn-more">
+            <Link href="#">
               <button className="border font-bold border-purple-500 px-6 py-3 rounded-full text-white hover:bg-purple-800 transition w-full sm:w-auto">
                 Learn More
               </button>
@@ -57,7 +57,7 @@ export default function Banner1() {
               alt="Resume Upload"
               width={600}
               height={350}
-              className="rounded-xl shadow-lg hover:rotate-3 transition-transform duration-700 w-full h-auto"
+              className="rounded-xl shadow-lg rotate-3 hover:rotate-0 transition-transform duration-700 w-full h-auto"
             />
           </div>
         </motion.div>
