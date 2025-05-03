@@ -15,17 +15,25 @@ datasource db {
 }
 
 model Users {
-  UserID Int @id @default(autoincrement())
-  Email String @db.VarChar(50) @unique
-  Password String @db.VarChar(50) 
+  UserID   Int    @id @default(autoincrement())
+  Email    String @db.VarChar(50) @unique
+  Password String @db.VarChar(50)
 }
 
 model Jobs {
-  JobId Int @id @default(autoincrement())
-  JobName String @db.VarChar(100)
-  CompanyName String @db.VarChar(200)
-  Location String? @db.VarChar(100)
-  Description String? @db.VarChar(400)
-  Salary String? @db.VarChar(100)
-  Duration DateTime? @updatedAt
+  JobId       Int       @id @default(autoincrement())
+  JobName     String    @db.VarChar(100)
+  CompanyName String    @db.VarChar(200)
+  Location    String?   @db.VarChar(100)
+  Description String?   @db.VarChar(400)
+  Salary      String?   @db.VarChar(100)
+  Experience  Int? 
+  Duration    DateTime? @updatedAt
+  skills      Skill[]   // Many-to-many relationship
+}
+
+model Skill {
+  id    Int    @id @default(autoincrement())
+  name  String @unique
+  jobs  Jobs[] // Many-to-many relationship
 }

@@ -1,77 +1,853 @@
 [
   {
+    "title": "Software Developer Intern / Trainee",
+    "company": "Techavidus",
+    "rating": 4.6,
+    "reviews": 16,
+    "experience": "0-1 Yrs",
+    "salary": "Not disclosed",
+    "location": "Gandhinagar",
+    "skills": [
+      "Asp.Net MVC",
+      "Java",
+      "Software development",
+      "Node JS",
+      "Web Designing",
+      "Angular",
+      "React JS",
+      "Node"
+    ],
+    "posted": "4 Days Ago"
+  },
+  {
+    "title": "Software Developer Intern/ Trainee",
+    "company": "Techavidus",
+    "rating": 4.6,
+    "reviews": 16,
+    "experience": "0-1 Yrs",
+    "salary": "Not disclosed",
+    "location": "Delhi / NCR",
+    "skills": [
+      "Asp.Net MVC",
+      "Java",
+      "Software Development",
+      "Node JS",
+      "Web Designing",
+      "Angular",
+      "React JS",
+      "Web technologies"
+    ],
+    "posted": "11 Days Ago"
+  },
+  {
+    "title": "Software Developers : Freshers",
+    "company": "BSC Global",
+    "rating": 4.0,
+    "reviews": 29,
+    "experience": "0-1 Yrs",
+    "salary": "Not disclosed",
+    "location": "Remote",
+    "skills": [
+      "Dotnet Development",
+      "Software Development",
+      "java",
+      "Javascript",
+      "Java Fullstack",
+      "angularjs",
+      "JavasGlobal"
+    ],
+    "posted": "3 Days Ago"
+  },
+  {
+    "title": "Software Developers ( VB & MSSQL )",
+    "company": "Syscon Solutions",
+    "rating": 4.9,
+    "reviews": 9,
+    "experience": "0-2 Yrs",
+    "salary": "Not disclosed",
+    "location": [
+      "Chennai",
+      "Pune",
+      "Bengaluru",
+      "Kolkata",
+      "Mumbai",
+      "New Delhi",
+      "Hyderabad"
+    ],
+    "skills": [
+      "Tally",
+      "ERP",
+      "MS SQL",
+      "Version control",
+      "VB.NET",
+      "C",
+      "Database design",
+      "Visual Studio"
+    ],
+    "posted": "30+ Days Ago"
+  },
+  {
+    "title": "Software Developers",
+    "company": "Oxyzen Homes",
+    "rating": 2.8,
+    "reviews": 10,
+    "experience": "0-1 Yrs",
+    "salary": "Not disclosed",
+    "location": [
+      "Chennai",
+      "Pune",
+      "Bengaluru",
+      "Kolkata",
+      "Mumbai",
+      "New Delhi",
+      "Hyderabad"
+    ],
+    "skills": [
+      "Web technologies",
+      "VC++",
+      "ASP.Net",
+      "Windows",
+      "VB",
+      "Software development",
+      "Development",
+      "Software"
+    ],
+    "posted": "30+ Days Ago"
+  },
+  {
     "title": "Software Developer",
-    "company": "ExxonMobil",
-    "location": "Bengaluru"
+    "company": "Rashmi Chourasiya",
+    "experience": "0-1 Yrs",
+    "salary": "4.5-6.5 Lacs PA",
+    "location": "Pune",
+    "skills": [
+      "Java",
+      "Software Testing",
+      "Systems development life cycle",
+      "JavaScript",
+      "Source control",
+      "C++",
+      "Adaptability",
+      "Debugging"
+    ],
+    "posted": "Few Hours Ago"
   },
   {
-    "title": "Senior Software Developer",
-    "company": "Oracle",
-    "location": "India"
+    "title": "Software Developer",
+    "company": "Cybernetics Software",
+    "rating": 4.3,
+    "reviews": 12,
+    "experience": "0-1 Yrs",
+    "salary": "3.5-4.25 Lacs PA",
+    "location": "Pune",
+    "skills": [
+      "C#",
+      "ASP.Net",
+      "SQL Server",
+      "nextjs",
+      "python",
+      "java",
+      "react native",
+      "aws"
+    ],
+    "posted": "5 Days Ago"
   },
   {
-    "title": "Principal Software Developer",
-    "company": "Oracle",
-    "location": "Bengaluru, India"
+    "title": "Software Developer : Btech / MCA / MTech / BSc Freshers only",
+    "company": "Milestone Online Technology",
+    "experience": "0-1 Yrs",
+    "salary": "2-3 Lacs PA",
+    "location": "Hybrid - Noida, Gurgaon/Gurugram, Delhi / NCR",
+    "skills": [
+      "software development",
+      "software",
+      "android",
+      "mcab tech fresher",
+      "itjava fresher",
+      "coding"
+    ],
+    "posted": "16 Days Ago"
   },
   {
-    "title": "Principal Software Developer",
-    "company": "Oracle",
-    "location": "Hyderabad, India"
+    "title": "Software Developer - 2D Imaging and Nuke Tools",
+    "company": "Prime Focus (PFL)",
+    "rating": 3.8,
+    "reviews": 212,
+    "experience": "0-4 Yrs",
+    "salary": "Not disclosed",
+    "location": [
+      "Chennai",
+      "Bengaluru",
+      "Mumbai"
+    ],
+    "skills": [
+      "Software Developer",
+      "2D Imaging",
+      "Nuke Tools",
+      "Software development",
+      "Tools",
+      "2D",
+      "Development",
+      "Imaging"
+    ],
+    "posted": "4 Days Ago"
   },
   {
-    "title": "Software Developer 3 - Identity Governance",
-    "company": "Oracle",
-    "location": "Bengaluru, India"
+    "title": "Software Developer",
+    "company": "Leading IT Company",
+    "experience": "0-5 Yrs",
+    "salary": "Not disclosed",
+    "location": "Chennai",
+    "skills": [
+      "Python",
+      "Network Engineering",
+      "Networking",
+      "Software Engineering",
+      "Artificial Intelligence",
+      "Python Development",
+      "Software development",
+      "Engineering"
+    ],
+    "posted": "4 Days Ago"
   },
   {
-    "title": "Software Developer 3",
-    "company": "Oracle",
-    "location": "India"
+    "title": "Software Developer",
+    "company": "iGold",
+    "rating": 4.3,
+    "reviews": 14,
+    "experience": "0-1 Yrs",
+    "salary": "4.5-7.5 Lacs PA",
+    "location": "Chennai(Ekkaduthangal)",
+    "skills": [
+      "Java",
+      "C++",
+      "Data Structures",
+      "Python",
+      "C",
+      "Software development",
+      "Software"
+    ],
+    "posted": "9 Days Ago"
   },
   {
-    "title": "Software Developer 3",
-    "company": "Oracle",
-    "location": "Bengaluru, India"
+    "title": "Software Developer (Hiring For our client)",
+    "company": "Vibrantminds",
+    "rating": 4.8,
+    "reviews": 25,
+    "experience": "0 Yrs",
+    "salary": "4.5 Lacs PA",
+    "location": "Pune(Viman Nagar)",
+    "skills": [
+      "Communication Skills",
+      "Java",
+      "CSS",
+      "HTML",
+      "SQL",
+      "Python",
+      "Hiring",
+      "Software development"
+    ],
+    "posted": "10 Days Ago"
   },
   {
-    "title": "Software Developer 3",
-    "company": "Oracle",
-    "location": "Bengaluru, India"
+    "title": "Frontend Developer Intern",
+    "company": "Safe Ledger",
+    "rating": 2.5,
+    "reviews": 21,
+    "experience": "Intern",
+    "salary": "Not disclosed",
+    "location": "Gurugram",
+    "skills": [
+      "Frontend Development",
+      "React.js"
+    ],
+    "posted": "Not specified"
   },
   {
-    "title": "Software Developer 3",
-    "company": "Oracle",
-    "location": "India"
+    "title": "Associate Software Engineer",
+    "company": "Niit Managed Training Services",
+    "rating": 3.5,
+    "reviews": 1300,
+    "experience": "Not specified",
+    "salary": "Not disclosed",
+    "location": "Gurugram",
+    "skills": [
+      "Software Engineering",
+      "JavaScript",
+      "React.js"
+    ],
+    "posted": "Not specified"
   },
   {
-    "title": "Software Developer 4",
-    "company": "Oracle",
-    "location": "India"
+    "title": "React.js Developer",
+    "company": "EzeiaTech",
+    "rating": 3.9,
+    "reviews": 54,
+    "experience": "Not specified",
+    "salary": "Not disclosed",
+    "location": "Gurugram",
+    "skills": [
+      "React.js"
+    ],
+    "posted": "Not specified"
   },
   {
-    "title": "Software Developer 3",
-    "company": "Oracle",
-    "location": "Bengaluru, India"
+    "title": "Javascript/Typescript Developer",
+    "company": "Aristocrat",
+    "rating": 3.8,
+    "reviews": 264,
+    "experience": "Not specified",
+    "salary": "Not disclosed",
+    "location": "Hybrid - Noida, Gurugram",
+    "skills": [
+      "Javascript",
+      "Typescript"
+    ],
+    "posted": "Not specified"
   },
   {
-    "title": "Software Developer 3",
-    "company": "Oracle",
-    "location": "Bengaluru, India"
+    "title": "Adobe AEM",
+    "company": "Wipro",
+    "rating": 3.7,
+    "reviews": 55000,
+    "experience": "Not specified",
+    "salary": "Not disclosed",
+    "location": "Hyderabad",
+    "skills": [
+      "Adobe AEM"
+    ],
+    "posted": "Not specified"
   },
   {
-    "title": "Senior Software Developer",
-    "company": "Oracle",
-    "location": "Bengaluru, India"
+    "title": "Software Interns (Frontend / Backend / WordPress)",
+    "company": "Massive Mobility Pvt. Ltd",
+    "experience": "Intern",
+    "salary": "Not disclosed",
+    "location": "Gurugram",
+    "skills": [
+      "Frontend",
+      "Backend",
+      "WordPress"
+    ],
+    "posted": "Not specified"
   },
   {
-    "title": "Software Developer 3",
-    "company": "Oracle",
-    "location": "Bengaluru, India"
+    "title": "UI/UX Developer",
+    "company": "Upadpro Software & Services",
+    "rating": 3.4,
+    "reviews": 33,
+    "experience": "Not specified",
+    "salary": "Not disclosed",
+    "location": "Noida",
+    "skills": [
+      "UI/UX"
+    ],
+    "posted": "Not specified"
   },
   {
-    "title": "Software Developer 4",
-    "company": "Oracle",
-    "location": "India"
+    "title": "Flutter Developer",
+    "company": "Lufick",
+    "rating": 4.0,
+    "reviews": 8,
+    "experience": "Not specified",
+    "salary": "Not disclosed",
+    "location": "Noida",
+    "skills": [
+      "Flutter"
+    ],
+    "posted": "Not specified"
+  },
+  {
+    "title": "Node.js Intern",
+    "company": "Zysk Technologies",
+    "rating": 4.1,
+    "reviews": 12,
+    "experience": "Intern",
+    "salary": "Not disclosed",
+    "location": "Bengaluru",
+    "skills": [
+      "Node.js"
+    ],
+    "posted": "Not specified"
+  },
+  {
+    "title": "Software Developer",
+    "company": "Acciojob",
+    "rating": 3.7,
+    "reviews": 87,
+    "experience": "0-5 Yrs",
+    "salary": "4-6 Lacs PA",
+    "location": "Gurugram",
+    "skills": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React JS",
+      "DSA",
+      "JavaScript",
+      "Node.js"
+    ],
+    "posted": "22 Days Ago"
+  },
+  {
+    "title": "Software Developer",
+    "company": "MedVerve Healthcare Pvt Ltd",
+    "rating": 3.2,
+    "reviews": 150,
+    "experience": "0-1 Yrs",
+    "salary": "Not disclosed",
+    "location": "Bengaluru",
+    "skills": [
+      "JAVA",
+      "Python",
+      ".NET",
+      "SQL",
+      "PLSQL",
+      "Core Java"
+    ],
+    "posted": "1 Day Ago"
+  },
+  {
+    "title": "Software Developer Intern, BCA/MCA/Btech",
+    "company": "Cilpesentix Infotech",
+    "experience": "0-1 Yrs",
+    "salary": "60,000-1.2 Lacs PA",
+    "location": "Saharsa",
+    "skills": [
+      "Computer Science",
+      "React JS",
+      "Java",
+      "Computer Application",
+      "Angular",
+      "Information Technology"
+    ],
+    "posted": "Today"
+  },
+  {
+    "title": "Software Developer",
+    "company": "Peoplexm Technologies",
+    "experience": "0-2 Yrs",
+    "salary": "Not disclosed",
+    "location": "Bengaluru",
+    "skills": [
+      "JS",
+      "Python",
+      "HTML",
+      "CSS",
+      "MongoDB",
+      "React Native",
+      "MySQL"
+    ],
+    "posted": "30+ Days Ago"
+  },
+  {
+    "title": "Software Developer",
+    "company": "Acumen Technologies",
+    "rating": 4.6,
+    "reviews": 7,
+    "experience": "0-2 Yrs",
+    "salary": "Not disclosed",
+    "location": "Chennai",
+    "skills": [
+      "Hibernate",
+      "jQuery",
+      "Business Analyst",
+      "Software development life cycle",
+      "MVC",
+      "Operations"
+    ],
+    "posted": "30+ Days Ago"
+  },
+  {
+    "title": "Software Developer",
+    "company": "Viewzen Labs",
+    "rating": 3.6,
+    "reviews": 4,
+    "experience": "0-2 Yrs",
+    "salary": "Not disclosed",
+    "location": "Chennai",
+    "skills": [
+      "Flutter",
+      "Dart",
+      "Ionic",
+      "HTML5",
+      "CSS",
+      "Flex",
+      "Bootstrap",
+      "iOS",
+      "Android"
+    ],
+    "posted": "30+ Days Ago"
+  },
+  {
+    "title": "Software Developer",
+    "company": "Antas Solutions",
+    "experience": "0-2 Yrs",
+    "salary": "1.5-3 Lacs PA",
+    "location": "Kochi",
+    "skills": [
+      ".Net Core",
+      "OOP",
+      "Entity Framework",
+      "SQL Server"
+    ],
+    "posted": "1 Day Ago"
+  },
+  {
+    "title": "Software Developer",
+    "company": "Ingenious Technohub",
+    "rating": 4.6,
+    "reviews": 3,
+    "experience": "0-1 Yrs",
+    "salary": "Not disclosed",
+    "location": "Pune",
+    "skills": [
+      "System testing",
+      "Software development",
+      "Consulting",
+      "Programming",
+      "System design",
+      "Hardware Design"
+    ],
+    "posted": "30+ Days Ago"
+  },
+  {
+    "title": "Fresher Software Developer",
+    "company": "Mauve Technologies",
+    "experience": "0-1 Yrs",
+    "salary": "Not disclosed",
+    "location": "Noida",
+    "skills": [
+      "SOA",
+      "MySQL",
+      "JavaScript",
+      "Mentor",
+      "PHP",
+      "Windows",
+      "Oracle",
+      "SEO"
+    ],
+    "posted": "30+ Days Ago"
+  },
+  {
+    "title": "Software Developer",
+    "company": "Foxdale",
+    "experience": "0-1 Yrs",
+    "salary": "Not disclosed",
+    "location": "Thiruvananthapuram, Technopark",
+    "skills": [
+      "Python",
+      "Django",
+      "PHP",
+      "SQL",
+      "WordPress"
+    ],
+    "posted": "7 Days Ago"
+  },
+  {
+    "title": "Software Developer",
+    "company": "jr Technology",
+    "experience": "0-1 Yrs",
+    "salary": "Not disclosed",
+    "location": "Noida",
+    "skills": [
+      "Product quality",
+      "OS",
+      "Commerce",
+      "Coding",
+      "MySQL",
+      "WordPress",
+      "JavaScript",
+      "PHP",
+      "HTML"
+    ],
+    "posted": "30+ Days Ago"
+  },
+  {
+    "title": "Software Developer : Btech / MCA / MTech / BSc Freshers only",
+    "company": "Milestone Online Technology",
+    "experience": "0-1 Yrs",
+    "salary": "2-3 Lacs PA",
+    "location": "Hybrid - Chennai, Bengaluru, Hyderabad",
+    "skills": [
+      "Java",
+      "Python",
+      "Android",
+      "MEAN Stack",
+      "Front end development"
+    ],
+    "posted": "16 Days Ago"
+  },
+  {
+    "title": "Software Developer : Btech / MCA / MTech / BSc Freshers only",
+    "company": "Milestone Online Technology",
+    "experience": "0-1 Yrs",
+    "salary": "2-3 Lacs PA",
+    "location": "Hybrid - Pune, Kolkata, Delhi / NCR",
+    "skills": [
+      "Java",
+      "Python",
+      "Android",
+      "MEAN Stack",
+      "Front end development"
+    ],
+    "posted": "16 Days Ago"
+  },
+  {
+    "title": "Software Developer",
+    "company": "Intelligence Node Consulting",
+    "experience": "0-1 Yrs",
+    "salary": "Not disclosed",
+    "location": "Mumbai (All Areas)",
+    "skills": [
+      "C++",
+      "NoSQL",
+      "HTTP protocols",
+      "STL"
+    ],
+    "posted": "5 Days Ago"
+  },
+  {
+    "title": "Software Developers",
+    "company": "Sardonyx Technologies Pvt. Ltd.",
+    "rating": 4.9,
+    "reviews": 59,
+    "experience": "0-1 Yrs",
+    "salary": "Not disclosed",
+    "location": "Chennai",
+    "skills": [
+      "Technical",
+      "Software",
+      "HTML",
+      "XSLT",
+      "jQuery",
+      "web",
+      "XML"
+    ],
+    "posted": "30+ Days Ago"
+  },
+  {
+    "title": "Principal Software Developer, Software Development",
+    "company": "MSC Software",
+    "rating": 4.0,
+    "reviews": 28,
+    "experience": "0-5 Yrs",
+    "salary": "Not disclosed",
+    "location": "Hyderabad",
+    "skills": [
+      "ActiveMQ",
+      "RabbitMQ",
+      ".NET Core",
+      "Docker",
+      "GIT",
+      "Test cases"
+    ],
+    "posted": "6 Days Ago"
+  },
+  {
+    "title": "Requirement of Software Developer Fresher",
+    "company": "Right Step Consulting",
+    "experience": "0-1 Yrs",
+    "salary": "Not disclosed",
+    "location": "Noida",
+    "skills": [
+      "English",
+      "Application programming",
+      "Technical Tools",
+      "Programming",
+      "Software",
+      "Business Executive"
+    ],
+    "posted": "30+ Days Ago"
+  },
+  {
+    "title": "Software Developer",
+    "company": "Techniche Imunita",
+    "rating": 4.0,
+    "reviews": 12,
+    "experience": "0-1 Yrs",
+    "salary": "Not disclosed",
+    "location": "Pune",
+    "skills": [
+      "C++",
+      "CSS",
+      "Hibernate",
+      "jQuery",
+      "SQL",
+      "Spring",
+      "Java",
+      "OOPs"
+    ],
+    "posted": "30+ Days Ago"
+  },
+  {
+    "title": "Software Developer - 851",
+    "company": "ION",
+    "rating": 3.3,
+    "reviews": 184,
+    "experience": "0-5 Yrs",
+    "salary": "Not disclosed",
+    "location": "Noida",
+    "skills": [
+      "Supply chain",
+      "C++",
+      "Hibernate",
+      "Automation",
+      "Enterprise applications",
+      "Agile",
+      "PLSQL",
+      "Workflow"
+    ],
+    "posted": "30+ Days Ago"
+  },
+  {
+    "title": "Software Developer/Engineer ASP.Net Core(MVC)",
+    "company": "Anvitechsys",
+    "rating": 4.8,
+    "reviews": 14,
+    "experience": "0-1 Yrs",
+    "salary": "Not disclosed",
+    "location": "Pune",
+    "skills": [
+      "jQuery",
+      "HTML5",
+      "OOPS",
+      "JavaScript",
+      "Bootstrap",
+      "ASP.Net MVC",
+      "SQL"
+    ],
+    "posted": "30+ Days Ago"
+  },
+  {
+    "title": "Software Developer",
+    "company": "Prismire Solution",
+    "experience": "0-2 Yrs",
+    "salary": "3-4.25 Lacs PA",
+    "location": "Hybrid - Bengaluru, Vijayawada, Hyderabad",
+    "skills": [
+      "Java",
+      "Data Science",
+      "Cyber Security",
+      "AWS",
+      "Python",
+      "SQL"
+    ],
+    "posted": "22 Days Ago"
+  },
+  {
+    "title": "Junior Software Developer (Fresher)",
+    "company": "Techsoft",
+    "experience": "0 Yrs",
+    "salary": "3-3.5 Lacs PA",
+    "location": "Vijayawada, Visakhapatnam, Hyderabad",
+    "skills": [
+      "HTML",
+      "Full Stack Development",
+      "Problem Solving",
+      "Python"
+    ],
+    "posted": "15 Days Ago"
+  },
+  {
+    "title": "Software Developer",
+    "company": "Global Information Systems Technology (GIST)",
+    "experience": "0-4 Yrs",
+    "salary": "4.25-9.25 Lacs PA",
+    "location": "Bengaluru, Hyderabad",
+    "skills": [
+      "Java",
+      "JavaScript",
+      "MongoDB",
+      "CSS",
+      "HTML",
+      "Node.js",
+      "Spring Boot"
+    ],
+    "posted": "14 Days Ago"
+  },
+  {
+    "title": "Software Developer",
+    "company": "Aimsoft",
+    "experience": "0-2 Yrs",
+    "location": "Trivandrum, Thiruvananthapuram",
+    "skills": [
+      "ASP.NET",
+      "Object Oriented Programming",
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "posted": "30+ Days Ago"
+  },
+  {
+    "title": "Software Developer",
+    "company": "Nevonprojects",
+    "experience": "0-3 Yrs",
+    "location": "Mumbai",
+    "skills": [
+      "Automation",
+      "Electronics",
+      "PHP",
+      "ASP.NET"
+    ],
+    "posted": "30+ Days Ago"
+  },
+  {
+    "title": "Software Developer",
+    "company": "Pyrotech Workspace Solutions",
+    "experience": "0-4 Yrs",
+    "location": "Udaipur",
+    "skills": [
+      "Software Development"
+    ],
+    "posted": "30+ Days Ago"
+  },
+  {
+    "title": "Software Developer",
+    "company": "Impressive Star Softwares",
+    "experience": "0-3 Yrs",
+    "location": "Jaipur",
+    "skills": [
+      "Tally",
+      "Programming",
+      "Software Testing"
+    ],
+    "posted": "30+ Days Ago"
+  },
+  {
+    "title": "Software Developer",
+    "company": "Markteq708 Iscon Elegance",
+    "experience": "0-3 Yrs",
+    "location": "Ahmedabad",
+    "skills": [
+      "C#",
+      "MSSQL",
+      "WordPress"
+    ],
+    "posted": "30+ Days Ago"
+  },
+  {
+    "title": "Software Developer / For Malad East Mumbai",
+    "company": "SoftTact",
+    "experience": "0-1 Yrs",
+    "salary": "1.25-4.25 Lacs PA",
+    "location": "Malad East, Mumbai",
+    "skills": [
+      ".Net",
+      "C#",
+      "SQL"
+    ],
+    "posted": "10 Days Ago"
+  },
+  {
+    "title": "Software Developer",
+    "company": "Oswal Computer & Consultants",
+    "experience": "0-3 Yrs",
+    "location": "Indore",
+    "skills": [
+      "Software Development"
+    ],
+    "posted": "30+ Days Ago"
   }
 ]

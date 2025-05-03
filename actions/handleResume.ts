@@ -28,3 +28,4 @@ export default async function handleResume(resume: File): Promise<Record<string,
         return { message: error instanceof Error ? error.message : "An unknown error occurred" };
     }
 }
+ 

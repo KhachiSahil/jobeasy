@@ -39,10 +39,15 @@ const UploadResumeCard: React.FC = () => {
     e.preventDefault();
   };
 
-  const handleSubmit = () => {
-    if(file != null)handleResume(file)
+  const handleSubmit = async () => {
+    if (file != null) {
+      const resumeData = await handleResume(file);
+      
+      localStorage.setItem("resumeData", JSON.stringify(resumeData));
+      
+      router.push("/job-recommendation");
+    }
   };
-
 
   return (
     <div className="min-h-screen bg-black text-white flex items-center justify-center px-4 relative overflow-hidden">
