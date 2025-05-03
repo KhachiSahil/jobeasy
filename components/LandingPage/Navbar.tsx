@@ -4,7 +4,6 @@ import { FileText, Menu, X } from 'lucide-react';
 import Link from 'next/link';
 import { useState } from 'react';
 import { signIn, signOut } from "next-auth/react";
-import Banner1 from './Banner1';
 
 export default  function Navbar() {
   const [isOpen, setIsOpen] = useState(false);

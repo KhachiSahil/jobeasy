@@ -16,6 +16,7 @@ export const NEXT_AUTH_CONFIG: NextAuthOptions = {
         Email: { label: "Email", type: "email" },
         Password: { label: "Password", type: "password" },
       },
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
       async authorize(credentials: any) {
         if (!credentials?.Email || !credentials?.Password) return null;
 
@@ -47,12 +48,14 @@ export const NEXT_AUTH_CONFIG: NextAuthOptions = {
       }
       return token;
     },
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     async session({ session, token }: any) {
       if (session.user) {
         session.user.id = token.uid;
       }
       return session;
     },
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     async redirect({ url, baseUrl }) {
       return baseUrl;
     },

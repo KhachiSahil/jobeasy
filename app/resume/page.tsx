@@ -12,7 +12,9 @@ const UploadResumeCard: React.FC = () => {
   const [jobTitle, setJobTitle] = useState("");
   const [location, setLocation] = useState("");
   const fileInputRef = useRef<HTMLInputElement | null>(null);
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const { data: session, status } = useSession();
+  
   const router = useRouter();
   useEffect(() => {
     if (status === "unauthenticated") {
