@@ -36,7 +36,7 @@ export default function Banner1() {
                 Upload Resume →
               </button>
             </Link>
-            <Link href="#">
+            <Link href="https://github.com/KhachiSahil/jobeasy">
               <button className="border font-bold border-purple-500 px-6 py-3 rounded-full text-white hover:bg-purple-800 transition w-full sm:w-auto">
                 Learn More
               </button>

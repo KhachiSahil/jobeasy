@@ -10,11 +10,11 @@ import { useRouter } from 'next/navigation';
 const UploadResumeCard: React.FC = () => {
   const [file, setFile] = useState<File | null>(null);
   const [jobTitle, setJobTitle] = useState("");
-  const [location, setLocation] = useState("");
+  const [experience, setExperience] = useState("");
   const fileInputRef = useRef<HTMLInputElement | null>(null);
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const { data: session, status } = useSession();
-  
+
   const router = useRouter();
   useEffect(() => {
     if (status === "unauthenticated") {
@@ -40,14 +40,26 @@ const UploadResumeCard: React.FC = () => {
   };
 
   const handleSubmit = async () => {
-    if (file != null) {
-      const resumeData = await handleResume(file);
-      
-      localStorage.setItem("resumeData", JSON.stringify(resumeData));
-      
-      router.push("/job-recommendation");
+    let resumeData;
+
+    if (file) {
+      // If resume file is uploaded, parse it
+      resumeData = await handleResume(file);
+    } else if (jobTitle || experience) {
+      // If no resume, but manual input is provided
+      resumeData = {
+        Skills: jobTitle,
+        Experience: experience,
+      };
+    } else {
+      alert("Please upload a resume or provide skills/experience manually.");
+      return;
     }
+
+    localStorage.setItem("resumeData", JSON.stringify(resumeData));
+    router.push("/job-recommendation");
   };
+
 
   return (
     <div className="min-h-screen bg-black text-white flex items-center justify-center px-4 relative overflow-hidden">
@@ -108,30 +120,35 @@ const UploadResumeCard: React.FC = () => {
         <div className="mt-6 space-y-4">
           <div>
             <label className="block text-sm font-semibold text-white mb-1">
-              Desired Job Title (Optional)
+              Skills (Optional)
             </label>
             <input
               type="text"
               value={jobTitle}
               onChange={(e) => setJobTitle(e.target.value)}
-              placeholder="e.g. Software Engineer, Marketing Manager"
-              className="w-full bg-gradient-to-br from-black via-neutral-800 to-black border border-gray-700 text-white px-4 py-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500 placeholder-gray-500"
+              placeholder="e.g. Javascript, React js"
+              disabled={file !== null}
+              className={`w-full bg-gradient-to-br from-black via-neutral-800 to-black border border-gray-700 text-white px-4 py-3 rounded-lg placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-purple-500 ${file !== null ? "opacity-50 cursor-not-allowed" : ""
+                }`}
             />
           </div>
 
           <div>
             <label className="block text-sm font-semibold text-white mb-1">
-              Preferred Location (Optional)
+              Experience (Optional)
             </label>
             <input
               type="text"
-              value={location}
-              onChange={(e) => setLocation(e.target.value)}
-              placeholder="e.g. New York, Remote"
-              className="w-full bg-gradient-to-br from-black via-neutral-800 to-black border border-gray-700 text-white px-4 py-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-cyan-400 placeholder-gray-500"
+              value={experience}
+              onChange={(e) => setExperience(e.target.value)}
+              placeholder="e.g. 5 months"
+              disabled={file !== null}
+              className={`w-full bg-gradient-to-br from-black via-neutral-800 to-black border border-gray-700 text-white px-4 py-3 rounded-lg placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-cyan-400 ${file !== null ? "opacity-50 cursor-not-allowed" : ""
+                }`}
             />
           </div>
         </div>
+
 
         <motion.button
           whileHover={{ scale: 1.05 }}

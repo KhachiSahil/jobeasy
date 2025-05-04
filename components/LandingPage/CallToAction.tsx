@@ -2,7 +2,9 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { FileText } from "lucide-react";
+import { useRouter } from "next/navigation";
 const CallToAction: React.FC = () => {
+  const router = useRouter();
   return (
     <div className="bg-gradient-to-br from-black via-neutral-900 to-black text-white px-6 pt-32 md:pt-40 flex flex-col items-center justify-center text-center relative pb-4">
       <motion.h2
@@ -32,6 +34,7 @@ const CallToAction: React.FC = () => {
         whileTap={{ scale: 0.95 }}
         transition={{ delay: 0.6, duration: 0.6 }}
         viewport={{ once: true }}
+        onClick={()=>router.push('/resume')}
         className="mt-10 bg-gradient-to-r from-pink-500 via-purple-500 to-cyan-400 text-white font-semibold py-4 px-10 text-lg md:text-xl rounded-2xl shadow-lg hover:shadow-[0_0_25px_rgba(255,255,255,0.2)] transition-all duration-300"
       >
         Get Started →
